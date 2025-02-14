@@ -1,10 +1,11 @@
 import React from 'react'
+import TodoApp from './pages/TodoApp'
 
 const App = () => {
   return (
-    <div>
-      <h1>Hello i am react Dev</h1>
-    </div>
+    <>
+     <TodoApp/>
+    </>
   )
 }
 
